@@ -30,7 +30,7 @@ The project includes:
 
 The complete analysis, preprocessing steps, model training and evaluation are available in the Jupyter Notebook:
 
-### 👉 [Open the Jupyter Notebook](./credit_risk.ipynb)
+### 👉 [Open the Jupyter Notebook](./CreditRiskAnalysis.ipynb)
 
 The notebook can be viewed directly from GitHub without installing any additional software.
 
