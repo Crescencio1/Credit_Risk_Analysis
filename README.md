@@ -1,22 +1,20 @@
-# 💳 Credit Risk Prediction
+# 💳 Predicción de Riesgo Crediticio
+Proyecto de Machine Learning para predecir el riesgo crediticio utilizando un modelo de Regresión Logística con Python y Scikit-learn.
 
-Machine Learning project for predicting **credit risk** using a Logistic Regression model with Python and Scikit-learn.
+## 📊 Descripción del Proyecto
+El objetivo de este proyecto es construir un modelo de clasificación capaz de predecir si un solicitante de crédito representa un riesgo crediticio alto o bajo, basado en su información financiera y demográfica disponible.
 
-## 📊 Project Overview
+El proyecto incluye:
 
-The goal of this project is to build a classification model capable of predicting whether a credit applicant represents a **higher or lower credit risk** based on their available financial and demographic information.
+* 🔍 Análisis Exploratorio de Datos (EDA)
+* 🧹 Preprocesamiento de datos
+* 🔤 One-Hot Encoding para variables categóricas
+* 📏 Escalado Min-Max para variables numéricas
+* 🤖 Regresión Logística
+* 📈 Evaluación del modelo
+* 🎯 Predicciones basadas en probabilidad
 
-The project includes:
-
-* 🔍 Exploratory Data Analysis (EDA)
-* 🧹 Data preprocessing
-* 🔤 One-Hot Encoding for categorical variables
-* 📏 Min-Max Scaling for numerical variables
-* 🤖 Logistic Regression
-* 📈 Model evaluation
-* 🎯 Probability-based predictions
-
-## 🛠️ Technologies
+## 🛠️ Tecnologías
 
 * Python
 * Pandas
@@ -26,15 +24,13 @@ The project includes:
 * Scikit-learn
 * Jupyter Notebook
 
-## 📓 Explore the Notebook
+## 📓 Explora el Notebook
+El análisis completo, los pasos de preprocesamiento, el entrenamiento y la evaluación del modelo están disponibles en el Jupyter Notebook:
 
-The complete analysis, preprocessing steps, model training and evaluation are available in the Jupyter Notebook:
+### 👉 [Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]
+El notebook puede visualizarse directamente desde GitHub sin necesidad de instalar software adicional.
 
-### 👉 [Open the Jupyter Notebook](./CreditRiskAnalysis.ipynb)
-
-The notebook can be viewed directly from GitHub without installing any additional software.
-
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```text
 Credit_Risk_Analysis/
@@ -44,13 +40,11 @@ Credit_Risk_Analysis/
 └── dataset/
     └── german.data
     └── german.doc
-	└── german_data.csv
+    └── german_data.csv
 ```
 
-## 📌 Objective
+## 📌 Objetivo
 
-This project demonstrates a complete and reproducible Machine Learning workflow, from data preprocessing to model evaluation, using a classical statistical classification algorithm.
+Este proyecto demuestra un flujo de trabajo completo y reproducible de Machine Learning, desde el preprocesamiento de datos hasta la evaluación del modelo, utilizando un algoritmo clásico de clasificación estadística.
 
----
-
-⭐ Feel free to explore the notebook to see the complete analysis and implementation.
+⭐ Siéntete libre de explorar el notebook para ver el análisis completo y la implementación.
