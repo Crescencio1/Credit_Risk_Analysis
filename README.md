@@ -2,7 +2,8 @@
 Proyecto de Machine Learning para predecir el riesgo crediticio utilizando un modelo de Regresión Logística con Python y Scikit-learn.
 
 ## 📊 Descripción del Proyecto
-El objetivo de este proyecto es construir un modelo de clasificación capaz de predecir si un solicitante de crédito representa un riesgo crediticio alto o bajo, basado en su información financiera y demográfica disponible.
+El objetivo de este proyecto es construir un modelo de clasificación capaz de predecir si un solicitante de crédito representa un riesgo crediticio
+alto o bajo, basado en su información financiera y demográfica disponible.
 
 El proyecto incluye:
 
@@ -11,7 +12,9 @@ El proyecto incluye:
 * 🔤 One-Hot Encoding para variables categóricas
 * 📏 Escalado Min-Max para variables numéricas
 * 🤖 Regresión Logística
-* 📈 Evaluación del modelo
+* 🤖 Clasificación por K-means
+* 🤖 Análisis de componentes principales (PCA)
+* 📈 Evaluación de los modelos
 * 🎯 Predicciones basadas en probabilidad
 
 ## 🛠️ Tecnologías
@@ -27,8 +30,9 @@ El proyecto incluye:
 ## 📓 Explora el Notebook
 El análisis completo, los pasos de preprocesamiento, el entrenamiento y la evaluación del modelo están disponibles en el Jupyter Notebook:
 
-### 👉 [Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]
-El notebook puede visualizarse directamente desde GitHub sin necesidad de instalar software adicional.
+### 👉 [Abre el primer Jupyter Notebook](./CreditRiskAnalysis.ipynb)
+### 👉 [Abre el segundo Jupyter Notebook](./CreditRiskAnalysis-K-Means.ipynb)
+Los notebooks pueden visualizarse directamente desde GitHub sin necesidad de instalar software adicional.
 
 ## 📁 Estructura del Proyecto
 
@@ -36,6 +40,7 @@ El notebook puede visualizarse directamente desde GitHub sin necesidad de instal
 Credit_Risk_Analysis/
 │
 ├── CreditRiskAnalysis.ipynb
+├── CreditRiskAnalysis-K-Means.ipynb
 ├── README.md
 └── dataset/
     └── german.data
@@ -45,6 +50,8 @@ Credit_Risk_Analysis/
 
 ## 📌 Objetivo
 
-Este proyecto demuestra un flujo de trabajo completo y reproducible de Machine Learning, desde el preprocesamiento de datos hasta la evaluación del modelo, utilizando un algoritmo clásico de clasificación estadística.
+Este proyecto demuestra un flujo de trabajo completo y reproducible de Machine Learning, desde el preprocesamiento de datos hasta la evaluación del modelo.
+En el primer notebook utilizamos un algoritmo clásico de clasificación estadística, la Regresión Logística.
+En el segundo notebook usamos una algoritmo no supervisado, K-means, para realizar un proceso de segmentación de clientes.
 
-⭐ Siéntete libre de explorar el notebook para ver el análisis completo y la implementación.
+⭐ Siéntete libre de explorar los notebooks para ver el análisis completo y la implementación.
