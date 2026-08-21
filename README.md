@@ -1,5 +1,6 @@
 # 💳 Predicción de Riesgo Crediticio
-Proyecto de Machine Learning para predecir el riesgo crediticio utilizando un modelo de Regresión Logística con Python y Scikit-learn.
+Proyecto de Machine Learning para predecir el riesgo crediticio utilizando un modelo de supervisado (regresión logística) y uno no supervisado (K-means)
+con Python y Scikit-learn.
 
 ## 📊 Descripción del Proyecto
 El objetivo de este proyecto es construir un modelo de clasificación capaz de predecir si un solicitante de crédito representa un riesgo crediticio
